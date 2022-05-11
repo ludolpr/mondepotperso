@@ -5,6 +5,7 @@
     radius: 20px
 */
 
+
 /* Normalize */
 body{
     margin:0;
@@ -31,17 +32,27 @@ h1, h2, h3, h4, h5 {
     display: flex;
     flex-wrap:wrap;
     justify-content: end;
+    
 }
 
 .titre{
-    justify-content:start;   
+     
     margin: 2px;
-    color: white;
+    color: rgb(255, 255, 255);
+    justify-self:start;
+    
+}
+
+nav ul h1{
+    background-color: red; 
+    justify-content: flex-start;
+    
 }
 nav li {
-    margin: 5px;
-    padding: 5px;
+    /* margin: 5px;
+    padding: 5px; */
     list-style: none;  
+    max-height:4px;
 }
 nav li:hover{
     color:rgba(4, 84, 158, 0.705);
@@ -92,12 +103,19 @@ body h1 {
 .row{
     background-color: rgba(0, 0, 0, 0.397);
     color: white;
-    margin:10px;
+    /* margin:10px; */
     display:flex;
     flex-wrap: wrap;
-    margin: 5px;
-    padding: 7px;;
+    /* margin: 5px;
+    padding: 7px;; */
 }
 
 
 /*  responsive */
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+}
