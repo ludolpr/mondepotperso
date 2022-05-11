@@ -15,7 +15,9 @@ body{
 }
 
 /* Global */
-h1, h2, h3, h4, h5 {  }
+h1, h2, h3, h4, h5 {
+     padding: 10px; 
+}
 
 
 /* Color (bg, text, bdr, ...) */
@@ -52,3 +54,4 @@ h1, h2, h3, h4, h5 {  }
     margin: 5px;
     padding: 7px;;
 }
+/*  responsive */
