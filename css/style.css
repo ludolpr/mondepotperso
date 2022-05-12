@@ -17,105 +17,33 @@ body{
 
 /* Global */
 h1, h2, h3, h4, h5 {
-     padding: 10px; 
+    padding: 10px;
+    margin:5px;
+    font-family:"josefin sans, sans-serif";
 }
+li {list-style: none;}
 /* spacing (padding, margin, ... */
+.mx-5 { margin: 0 5px; }
+.mx-auto { margin: 0 auto }
+.my-10 { margin: 10px 0 }
+.ml-10 { margin-left: 10px }
+.mr-10 { margin-right: 10px }
 
 /* Color (bg, text, bdr, ...) */
+.bg-bleuclair{background-color: rgb(0, 113, 243);}
+
 /* .bg-primary { background-color: #color; } */
 
 /* Flex */
-
+.row { display: flex; }
+.space-btw { display: flex; justify-content: space-between; }
+.space-around { display: flex; justify-content: space-around; }
+.jus-center { display: flex; justify-content: center; }
+.al-itm-center { display: flex; align-items: center; }
+.col { display: flex; flex-direction: column; }
 
 /* navbar */
-.row { 
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: end;
-    
-}
 
-.titre{
-     
-    margin: 2px;
-    color: rgb(255, 255, 255);
-    justify-self:start;
-    
-}
-
-nav ul h1{
-    background-color: red; 
-    justify-content: flex-start;
-    
-}
-nav li {
-    /* margin: 5px;
-    padding: 5px; */
-    list-style: none;  
-    max-height:4px;
-}
-nav li:hover{
-    color:rgba(4, 84, 158, 0.705);
-}
-nav h1{
-    display: flex;
-    justify-content:s;
-}
-
-/* sous menu */
-
-.photodedebut{
-    width:100%;
-    background-color: rgba(4, 84, 158, 0.705);
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.photodedebut img{
-    width: 100%;
-    z-index: -1;
-}
-body h1 {
-    display: flex;
-    justify-content:fl ;
-}
-/* Section liste de card */
-.bloque1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.bloque1 h4{
-    text-align: center;
-}
-/* Section form */
-
-.col{
-    padding: 15px;
-    margin: 5px;
-}
-.container{
-    background-color: rgba(255, 0, 0, 0);
-    
-}
-
-.row{
-    background-color: rgba(0, 0, 0, 0.397);
-    color: white;
-    /* margin:10px; */
-    display:flex;
-    flex-wrap: wrap;
-    /* margin: 5px;
-    padding: 7px;; */
-}
 
 
 /*  responsive */
-
-
-ul {
-
-    margin: 0;
-    padding: 0;
-}

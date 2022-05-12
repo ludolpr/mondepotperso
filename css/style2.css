@@ -1,0 +1,121 @@
+/* 
+    Ludo L / Mon site
+    primary: #color
+    secondary: #color
+    radius: 20px
+*/
+
+
+/* Normalize */
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 100%;
+}
+
+/* Global */
+h1, h2, h3, h4, h5 {
+     padding: 10px; 
+}
+/* spacing (padding, margin, ... */
+
+/* Color (bg, text, bdr, ...) */
+/* .bg-primary { background-color: #color; } */
+
+/* Flex */
+
+
+/* navbar */
+.row { 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: end;
+    
+}
+
+.titre{
+     
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    justify-self:start;
+    
+}
+
+nav ul h1{
+    background-color: red; 
+    justify-content: flex-start;
+    
+}
+nav li {
+    /* margin: 5px;
+    padding: 5px; */
+    list-style: none;  
+    max-height:4px;
+}
+nav li:hover{
+    color:rgba(4, 84, 158, 0.705);
+}
+nav h1{
+    display: flex;
+    justify-content:s;
+}
+
+/* sous menu */
+
+.photodedebut{
+    width:100%;
+    background-color: rgba(4, 84, 158, 0.705);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.photodedebut img{
+    width: 100%;
+    z-index: -1;
+}
+body h1 {
+    display: flex;
+    justify-content:fl ;
+}
+/* Section liste de card */
+.bloque1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bloque1 h4{
+    text-align: center;
+}
+/* Section form */
+
+.col{
+    padding: 15px;
+    margin: 5px;
+}
+.container{
+    background-color: rgba(255, 0, 0, 0);
+    
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    /* margin:10px; */
+    display:flex;
+    flex-wrap: wrap;
+    /* margin: 5px;
+    padding: 7px;; */
+}
+
+
+/*  responsive */
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+}
