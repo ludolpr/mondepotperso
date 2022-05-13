@@ -24,8 +24,9 @@ h1,h2,h3,h4,h5 {
 .txt-center {text-align: center;}
 .txt-left {text-align: left;}
 .txt-right {text-align: right;}
-.box-section{border:solid 1px blue;}
-/* .z-index{z-index: 1; display: inline-block} */
+.w-100{width: 100%;}
+.w-80{width: 80%;}
+.w-50{width: 50%;}
 
 li {
     list-style: none;
@@ -33,7 +34,9 @@ li {
 
 /* texte size */
 .txt-size {}
-
+/* text color */
+.txt-blk{color: black;}
+.txt-deco-none{text-decoration:none;}
 /* spacing (padding, margin, ... */
 .mx-5 {margin: 0 5px;}
 .mx-auto {margin: 0 auto}
@@ -42,12 +45,16 @@ li {
 .mr-10 {margin-right: 10px}
 .mt-15 {margin-top: 15px;}
 .mb-10 {margin-bottom: 10px}
-
+.mt-6em{margin-top: 6em;}
+.mt-0{margin-top: 0;}
 /* Color (bg, text, bdr, ...) */
 .bg-bleuclair {background-color: rgb(240, 246, 247);}
 .bg-form {background-color: rgba(0, 0, 0, 0.411);}
-
+.bg-red{background-color: red;}
 /* .bg-primary { background-color: #color; } */
+
+/* images */
+.img-500{width: 500px;height: 500px;}
 
 /* Flex */
 .row {display: flex;}
@@ -79,7 +86,10 @@ li {
     display: flex;
     flex-direction: column;
 }
-
+.lign {
+    display: flex;
+    flex-direction: row;
+}
 /* navbar */
 nav {
     top: 0;
