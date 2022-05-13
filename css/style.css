@@ -27,16 +27,18 @@ h1,h2,h3,h4,h5 {
 .w-100{width: 100%;}
 .w-80{width: 80%;}
 .w-50{width: 50%;}
-
+.z-index1{z-index:+1;}
 li {
     list-style: none;
 }
 
 /* texte size */
 .txt-size {}
+
 /* text color */
 .txt-blk{color: black;}
 .txt-deco-none{text-decoration:none;}
+
 /* spacing (padding, margin, ... */
 .mx-5 {margin: 0 5px;}
 .mx-auto {margin: 0 auto}
@@ -47,10 +49,13 @@ li {
 .mb-10 {margin-bottom: 10px}
 .mt-6em{margin-top: 6em;}
 .mt-0{margin-top: 0;}
+
 /* Color (bg, text, bdr, ...) */
 .bg-bleuclair {background-color: rgb(240, 246, 247);}
 .bg-form {background-color: rgba(0, 0, 0, 0.411);}
 .bg-red{background-color: red;}
+.bg-cyan{background-color: aquamarine;}
+
 /* .bg-primary { background-color: #color; } */
 
 /* images */
@@ -200,3 +205,4 @@ footer{
 /*  responsive */
 
 
+/* page3 */
