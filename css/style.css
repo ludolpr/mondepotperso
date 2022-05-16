@@ -27,24 +27,18 @@ h1,h2,h3,h4,h5 {
 .w-100{width: 100%;}
 .w-80{width: 80%;}
 .w-50{width: 50%;}
+.w-25{width: 25%;}
 .z-index1{z-index:+1;}
 li {
     list-style: none;
 }
 
 /* texte size */
-.txt-size30 {font-size: 30px;}
+.txt-size {}
 
 /* text color */
 .txt-blk{color: black;}
-
-
-/* texte effect */
-.box-shd{box-shadow:5px rgb(13, 69, 190) ;}
-.txt-shd-bl{text-shadow: blue 3px;}
 .txt-deco-none{text-decoration:none;}
-.border-bl{border-color: rgb(0, 47, 255) 2px;}
-
 
 /* spacing (padding, margin, ... */
 .mx-5 {margin: 0 5px;}
@@ -204,74 +198,17 @@ textarea {
 label {
     display: flex;
 }
-input{
-    width: 100%;
-}
 /* footer */
 footer{
     background-color:black;
     height:50px;
 }
 /*  responsive */
-
-@media screen and (max-width:1450px){
-
-
-}
-@media screen and (max-width:1024px){
-    header {
-        width:auto;
-        height: 60vh;
-    }
-    .sec1 .list-card{
-        display: flex;
-        flex-direction: row;
-        
+ 
+@media screen and (max-width:1024px) {
     
 }
-}
-@media screen and (max-width:768px){
-    header {
-        width:auto;
-        height: 50vh;
-    }
-    .sec1{
-        display: flex;
-        flex-direction: column;
-    }
-     
-    .list-card{
-        display: flex;
-        flex-direction: column;
-     
-    }
-    input{
-        width: 50%;
-    }
-    textarea{
-        width: 50%;
-
-    }
-}
- 
-@media screen and (max-width:550px){
-    header{
-        width: 100vw ;
-    }
-    .form1{
-        width: 50%;
-    }
-    .card h5{
-        font-size: 17px;
-    }
-
-textarea{
-    width: 50%;
-}
-}
-  
+    
 
 
-
-
-
+/* page3 */
