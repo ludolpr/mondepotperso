@@ -204,6 +204,9 @@ textarea {
 label {
     display: flex;
 }
+input{
+    width: 100%;
+}
 /* footer */
 footer{
     background-color:black;
@@ -212,10 +215,7 @@ footer{
 /*  responsive */
 
 @media screen and (max-width:1450px){
-header {
-    width:auto;
-    height: 75vh;
-}
+
 
 }
 @media screen and (max-width:1024px){
@@ -226,15 +226,13 @@ header {
     .sec1 .list-card{
         display: flex;
         flex-direction: row;
-        text-align: center;
         
-
-    }
+    
 }
-
+}
 @media screen and (max-width:768px){
     header {
-        width:100vw;
+        width:auto;
         height: 50vh;
     }
     .sec1{
@@ -247,10 +245,30 @@ header {
         flex-direction: column;
      
     }
-    
+    input{
+        width: 50%;
+    }
+    textarea{
+        width: 50%;
+
+    }
 }
  
+@media screen and (max-width:550px){
+    header{
+        width: 100vw ;
+    }
+    .form1{
+        width: 50%;
+    }
+    .card h5{
+        font-size: 17px;
+    }
 
+textarea{
+    width: 50%;
+}
+}
   
 
 
