@@ -1,86 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" heref="https://icones8.fr/icons/set/lien-html">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
-        <link rel="icon" href="/images/monlogo.png" />
-        <link rel="stylesheet" href="./css/page4.css">
-        <title> Réparation mobile </title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" heref="https://icones8.fr/icons/set/lien-html">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/monlogo.png" />
+    <link rel="stylesheet" href="./css/page4.css">
+    <title> Réparation mobile </title>
+</head>
 <body>
-     <!-- navbar -->
-     <nav class="nav" >
-        <h3 id="titre">Réparation mobile</h3>
-        <ul >
-            <li class=""><a  href="/index.html"> Acceuil</a></li>
-            <li class=""><a href="/page2.html">Présentation</a></li>
-            <li class=""><a href="/page3.html"> Aides & Contact</a></li>
-            <li class=""><a href="/page4.html"> Acceuil Grid</a></li>
-        </ul>
-    </nav>
+    <nav class="bg-bleuclair">
+            <h3>Réparation mobile</h3>
+            <ul>
+                <li class="col2"><a href="/index.html">Acceuil</a></li>
+                <li class="col3"><a href="/page2.html">Présentation</a></li>
+                <li class="col4"><a href="/page3.html" >Aides & Contact</a></li>
+                <li class="col5"><a href="/page4.html"> Acceuil Grid</a></li>
+            </ul>
+            
+    </nav>  
     <header>
-        <div>
-            <div>
-                <img src="/images/kak-uznat-gde-nahoditsja-chelovek-po-nomeru_3.webp" alt="">
-                <button >lien 1</button>
-                <button >lien 2</button>
-            </div>
-            <div>
-                
-            </div>
-        </div>
-  
+        <button >lien 1</button>
+        <button >lien 2</button>
     </header>
     <section>
-        <div  class="grid1">
-            <h4>Nos présentations</h4>
-            <p>Notre centre agréé va expertiser votre produit et le réparer gratuitement s'il est sous
-                garantie.<br>
-                Si votre garantie a expiré, nous vous enverrons un devis et vous pourrez décider de le faire réparer, le
-                récupérer ou le recycler.</p>
+        <div class="grid1">
+            <h4 class="txt-center">Nos présentations </h4>
+            <p class="txt-center">Notre centre agréé va expertiser votre produit et le réparer gratuitement s'il est sous
+            garantie.<br>
+            Si votre garantie a expiré, nous vous enverrons un devis et vous pourrez décider de le faire réparer, le
+            récupérer ou le recycler.</p>
         </div>
-        <div class="grid2">
-            <div class="card txt-center">
-                <h5 class="card txt-center">Réparer</h5>
+        <div class="list-card grid2">
+
+            <div class="col 1card txt-center">
+                <h5 class="sup2">Réparer</h5>
                 <img class="img-250" src="./images/Atelier-Ynotek-Reparation.png" alt="">
             </div>
-            <div class="card txt-center">
-                <h5 class="card txt-center">Suivis </h5>
-                <img class="img-250" src="./images/Nature-iPhone-ecologie.png" alt="">
+
+            <div class="col3 card txt-center">
+                <h5 class="sup2">Suivis </h5>
+                <img class=" img-250 sup1" src="./images/Nature-iPhone-ecologie.png" alt="">
             </div>
-            <div class="card txt-center">
-                <h5 class="card txt-center">Garanties</h5>
-                <img class="img-250"src="./images/calling.jpg" alt="">
+
+            <div class="col5 card txt-center">
+                <h5 class="sup2">Garanties</h5>
+                <img class="img-250 sup1"src="./images/calling.jpg" alt="">
             </div>
+
         </div>
-    </section>
-    <section>
-        <form class="grid3">
-            
-                <div>
-                <label for="name">Nom :</label>
-                <input class="" type="text" id="mail" name="user_name">
-                </div>
-                <div class="row1 col3">
-                <label for="mail">E-mail&nbsp;:</label>
-                <input class="" type="email" id="mail" name="user_mail">
-                </div>
-            
-            <div class="row2 col2">
-                <label for="mail">Sujet :</label>
-                <input class="form1" type="email" id="mail" name="user_mail">
-            </div>
-            <div class="row3 col2">
-                <label for="msg">Message :</label>
-                <textarea class="mgs-size" id="msg" name="user_message"></textarea>
-            </div>
-            <input class="mb-10 row4 col2" type="submit" value="Envoyer le formulaire">
-        </form>
-        
     </section>
 </body>
 </html>

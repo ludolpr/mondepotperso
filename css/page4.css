@@ -1,146 +1,295 @@
-/* normalaze */
-
-/* Global */
-body
-{
+/* Normalize */
+body {
     margin: 0;
     padding: 0;
-  }   
+    background-color: rgb(228, 228, 228);
 
-/* nav */
-
-/* text color */
-.txt-blk{color: black;}
-.txt-deco-none{text-decoration:none;}
-
-/* spacing (padding, margin, ... */
-.mx-5 {margin: 0 5px;}
-.mx-auto {margin: 0 auto}
-.my-10 {margin: 10px 0}
-.ml-10 {margin-left: 10px}
-.mr-10 {margin-right: 10px}
-.mt-15 {margin-top: 15px;}
-.mb-10 {margin-bottom: 10px}
-.mt-6em{margin-top: 6em;}
-.mt-0{margin-top: 0;}
-.mt-5px{margin-top: 5px;}
-
-/* Color (bg, text, bdr, ...) */
-.bg-bleuclair {background-color: rgb(240, 246, 247);}
-.bg-form {background-color: rgba(0, 0, 0, 0.411);}
-.bg-red{background-color: red;}
-.bg-cyan{background-color: aquamarine;}
-
-/* text color */
-.txt-blk{color: black;}
-.txt-deco-none{text-decoration:none;}
-
-/* nav */
-.nav{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
 }
-nav h3{
-    grid-column: 3;
-    grid-row: 1;
-    font-size: 25px;
+/* Global */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 10px;
+    margin: 5px;
+    font-family: "josefin sans, sans-serif";
+}
+
+.txt-center {
     text-align: center;
-    
-}
-nav li {
-    grid-column-start: 1;
-}
-.bouton{
-    position:absolute;
-}
-.lien1{
-    grid-column-start: 1;
-    
 }
 
-/* images */
-.img-500{width: 500px;height: 500px;}
-.img-400{width: 400px;height: 400px;}
-.img-300{width: 300;height: 300px;}
-.img-250{width: 250px;height: 250px;}
-
-
-
-
-/* grid */ 
-
-.row1{grid-row:1}
-.row2{grid-row:2}
-.row3{grid-row:3}
-.row4{grid-row:4}
-.row5{grid-row:5}
-.row6{grid-row:6}
-
-.col1{grid-column:1;}
-.col2{grid-column:2;}
-.col3{grid-column:3;}
-.col4{grid-column:4;}
-.col5{grid-column:5;}
-.col6{grid-column:6;}
-
-
-/* header */
-header{
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows: 1fr; 
+.txt-left {
+    text-align: left;
 }
-header img{
-    width: 100vw;
+
+.txt-right {
+    text-align: right;
 }
-header button{
+
+.w-100 {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.z-index1 {
     z-index: +1;
 }
 
-/* liste de card */
+li {
+    list-style: none;
+    margin:15px;
+    text-align: center;
+    
+}
 
+/* texte size */
+.txt-size30 {
+    font-size: 30px;
+}
+
+/* text color */
+.txt-blk {
+    color: black;
+}
+
+
+/* texte effect */
+.box-shd {
+    box-shadow: 5px rgb(13, 69, 190);
+}
+
+.txt-shd-bl {
+    text-shadow: blue 3px;
+}
+
+.txt-deco-none {
+    text-decoration: none;
+}
+
+.border-bl {
+    border: 2px rgb(1, 182, 228);
+}
+
+.txt-deco-blue {
+    text-decoration-line: 3px rgb(0, 115, 182);
+}
+
+.txt-dec-udl-bleu {
+    text-decoration: underline rgb(0, 143, 179);
+}
+
+/* spacing (padding, margin, ... */
+.mx-5 {
+    margin: 0 5px;
+}
+
+.mx-10 {
+    margin: 10px;
+}
+
+.mx-auto {
+    margin: 0 auto
+}
+
+.my-10 {
+    margin: 10px 0
+}
+
+.ml-10 {
+    margin-left: 10px
+}
+
+.mr-10 {
+    margin-right: 10px
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px
+}
+
+.mt-6em {
+    margin-top: 6em;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+/* Color (bg, text, bdr, ...) */
+.bg-bleuclair {
+    background-color: rgb(240, 246, 247);
+}
+
+.bg-form {
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-cyan {
+    background-color: aquamarine;
+}
+
+/* .bg-primary { background-color: #color; } */
+
+/* images */
+.img-500 {
+    width: 500px;
+    height: 500px;
+}
+
+.img-250 {
+    width: 250px;
+    height: 250px;
+}
+
+.img-auto {
+    width: auto;
+    height: auto;
+}
+
+.img-150{width: 150px;height: 150px;}
+
+
+/* grid */
+
+.col1{grid-column: 1;}
+.col2{grid-column: 2;}
+.col3{grid-column: 3;}
+.col4{grid-column: 4;}
+.col5{grid-column: 5;}
+.col6{grid-column: 6;}
+
+.row1{grid-row: 1;}
+.row2{grid-row: 2;}
+.row3{grid-row: 3;}
+.row4{grid-row: 4;}
+.row5{grid-row: 5;}
+.row6{grid-row: 6;}
+
+
+nav{
+    top: 0;
+    width: 100%;
+    display: grid;
+    position: fixed;
+    box-shadow: 0 5px 5px black;
+    height: 6em;
+}
+nav h3{
+    display: grid;
+    text-align: center;
+}
+nav ul{
+    display: grid;
+    grid-template-columns:50% 12% 12% 12% 12%;
+    grid-template-rows: 1;
+    
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgba(18, 45, 199, 0.678);
+    text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
+}
+
+/* header */
+header{
+    width: 100%;
+    margin-top: 6em;
+    background-color: aquamarine;
+    background-image: linear-gradient(rgba(13, 108, 185, 0.158), rgba(15, 45, 214, 0.6)),url("/images/kak-uznat-gde-nahoditsja-chelovek-po-nomeru_3.webp");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    max-width: 100vw;
+}
+
+header button{
+    margin-top: 5px;
+}
+
+/* list de card */
 .grid1{
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
-    text-align: center;
-    row-gap: 20px;
 }
 .grid2{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-       
+    grid-template-columns: 30% 10% 30% 10% 30%;
+    grid-template-rows: 1;
 }
-.grid2 h5{
-    display: grid;
-    text-align: center;
-}
-.grid2 img{
+.list-card{
     justify-content: center;
-}
-
-
-/* formulauire */
-.grid3{
-    display:grid;
-    grid-template-columns: repeat(1fr 1fr 1fr);
-    grid-template-rows: repeat(1fr 1fr 1fr 1fr);
-    background-color: rgba(5, 43, 43, 0.514);
+    justify-content: space-around;
+    position: relative;
     margin: 10px;
-    padding: 10px;
     
+} 
+.card{
+    height: auto;
+    width: 100%;
+    border: solid 1px rgba(7, 7, 82, 0.603);
+    border-radius: 45px;
+    box-shadow: 5px 5px 5px rgb(10, 96, 167);   
+    position: relative;
+    z-index: -1;
 }
-.grid3 input{
-    width: 20vw;
+.sup1{
+    display:block;
 }
-.grid4{
-    display:grid;
-    grid-template-columns: ;
-    grid-template-rows: ; 
+.sup2{
+    position: absolute;
+    color: rgb(14, 108, 231);
+    font-size:32px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
 }
-textarea {
-    min-height: 250px;
-    min-width: 500px;
+.card > img {
+    width:  100%;
+    height: 100%;
+    border-radius:45px;  
+}
+
+@media screen and (max-width:1024px) {
+    nav ul{
+        display: grid;
+        grid-template-columns:50% 12% 12% 12% 12%;
+        grid-template-rows: 1;
+        font-size: 12px;
+        
+    }
+    header{
+        margin-top: 7.5em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav ul{
+        display: grid;
+        grid-template-columns:50% 12% 12% 12% 12%;
+        grid-template-rows: 1;
+        font-size: 8px;
+        
+    }
+    header{
+        margin-top: 6em;
+    }
+    
 }
