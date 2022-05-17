@@ -31,8 +31,18 @@ h1,h2,h3,h4,h5 {
 .z-index1{z-index:+1;}
 li {
     list-style: none;
+    margin:15px;
+    text-align: center;
+    
+    
 }
-
+nav >ul>li{
+    border-left-color: 3px aqua;
+    border-bottom-color: 3px aqua ;
+}
+li a{
+     text-align: center;
+}
 /* texte size */
 .txt-size {}
 
@@ -50,6 +60,7 @@ li {
 .mb-10 {margin-bottom: 10px}
 .mt-6em{margin-top: 6em;}
 .mt-0{margin-top: 0;}
+.mt-5px{margin-top: 5px;}
 
 /* Color (bg, text, bdr, ...) */
 .bg-bleuclair {background-color: rgb(240, 246, 247);}
@@ -109,6 +120,7 @@ nav {
 nav>ul>li:hover {
     color: rgba(18, 45, 199, 0.678);
     text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
+   
 }
 
 /* header */
@@ -185,7 +197,11 @@ button {
     align-items: center;
 
 }
-
+#txtbox{
+    font-size:18pt;
+     height:20px;
+     width:400px;
+    }
 .form1 {
     min-width: 500px;
 }
@@ -206,9 +222,12 @@ footer{
 /*  responsive */
  
 @media screen and (max-width:1024px) {
+    #txtbox{
+    font-size:18pt;
+     height:20px;
+     width:200px;
+    }
     
 }
-    
-
 
 /* page3 */

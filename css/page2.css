@@ -27,10 +27,15 @@ h1,h2,h3,h4,h5 {
 .w-100{width: 100%;}
 .w-80{width: 80%;}
 .w-50{width: 50%;}
+.w-25{width: 25%;}
 .z-index1{z-index:+1;}
 li {
     list-style: none;
+    margin:15px;
+    text-align: center;
+    
 }
+
 
 /* texte size */
 .txt-size30 {font-size: 30px;}
