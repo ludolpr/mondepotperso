@@ -13,70 +13,72 @@
     </head>
 <body>
      <!-- navbar -->
-     <nav  >
+     <nav class="nav" >
         <h3 id="titre">Réparation mobile</h3>
-        <ul class="nav">
-            <li><a href="/index.html"> Acceuil</a></li>
-            <li><a href="/page2.html">Présentation</a></li>
-            <li><a href="/page3.html"> Aides & Contact</a></li>
-            <li><a href="/page4.html"> Acceuil Grid</a></li>
+        <ul >
+            <li class=""><a  href="/index.html"> Acceuil</a></li>
+            <li class=""><a href="/page2.html">Présentation</a></li>
+            <li class=""><a href="/page3.html"> Aides & Contact</a></li>
+            <li class=""><a href="/page4.html"> Acceuil Grid</a></li>
         </ul>
     </nav>
     <header>
         <div>
             <div>
                 <img src="/images/kak-uznat-gde-nahoditsja-chelovek-po-nomeru_3.webp" alt="">
-            </div>
-            <div>
                 <button >lien 1</button>
                 <button >lien 2</button>
             </div>
+            <div>
+                
+            </div>
         </div>
-
-        
-        
+  
     </header>
     <section>
-        <div>
+        <div  class="grid1">
             <h4>Nos présentations</h4>
             <p>Notre centre agréé va expertiser votre produit et le réparer gratuitement s'il est sous
                 garantie.<br>
                 Si votre garantie a expiré, nous vous enverrons un devis et vous pourrez décider de le faire réparer, le
                 récupérer ou le recycler.</p>
         </div>
-        <div>
-            <div>
-                <h5 class="sup2">Réparer</h5>
-                <img class="sup1" src="./images/Atelier-Ynotek-Reparation.png" alt="">
+        <div class="grid2">
+            <div class="card txt-center">
+                <h5 class="card txt-center">Réparer</h5>
+                <img class="img-250" src="./images/Atelier-Ynotek-Reparation.png" alt="">
             </div>
-            <div>
-                <h5 class="sup2">Suivis </h5>
-                <img class="sup1" src="./images/Nature-iPhone-ecologie.png" alt="">
+            <div class="card txt-center">
+                <h5 class="card txt-center">Suivis </h5>
+                <img class="img-250" src="./images/Nature-iPhone-ecologie.png" alt="">
             </div>
-            <div>
-                <h5 class="sup2">Garanties</h5>
-                <img class="sup1"src="./images/calling.jpg" alt="">
+            <div class="card txt-center">
+                <h5 class="card txt-center">Garanties</h5>
+                <img class="img-250"src="./images/calling.jpg" alt="">
             </div>
         </div>
     </section>
     <section>
-        <form>
-            <div>
+        <form class="grid3">
+            
                 <div>
-                    <input id="txtbox" class="" type="text" id="mail" name="user_name">
-                    <label for="mail">E-mail&nbsp;:</label>
-                    <input id="txtbox" class="" type="email" id="mail" name="user_mail">
+                <label for="name">Nom :</label>
+                <input class="" type="text" id="mail" name="user_name">
                 </div>
-            </div>
-            <div>
+                <div class="row1 col3">
+                <label for="mail">E-mail&nbsp;:</label>
+                <input class="" type="email" id="mail" name="user_mail">
+                </div>
+            
+            <div class="row2 col2">
                 <label for="mail">Sujet :</label>
                 <input class="form1" type="email" id="mail" name="user_mail">
             </div>
-            <div>
+            <div class="row3 col2">
                 <label for="msg">Message :</label>
                 <textarea class="mgs-size" id="msg" name="user_message"></textarea>
             </div>
-            <input class="mb-10" type="submit" value="Envoyer le formulaire">
+            <input class="mb-10 row4 col2" type="submit" value="Envoyer le formulaire">
         </form>
         
     </section>

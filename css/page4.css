@@ -1,38 +1,146 @@
 /* normalaze */
 
 /* Global */
-
-/* nav */
-
-
-/* text-color */
-
-.nav{
-    display: grid;
-    grid-template-columns:repeat(10,10%);
-    
-}
-#titre{
-    display: grid;
-    grid-template-columns:1fr 10%;
-}
-nav a{
-    align-items: flex-end;
-}
-nav h3{
-    display: grid;
-    grid-template-rows: ;
-    
-
-}
-nav li{
-    text-decoration: none;
-}
-/* grid */
-
-
 body
 {
     margin: 0;
     padding: 0;
   }   
+
+/* nav */
+
+/* text color */
+.txt-blk{color: black;}
+.txt-deco-none{text-decoration:none;}
+
+/* spacing (padding, margin, ... */
+.mx-5 {margin: 0 5px;}
+.mx-auto {margin: 0 auto}
+.my-10 {margin: 10px 0}
+.ml-10 {margin-left: 10px}
+.mr-10 {margin-right: 10px}
+.mt-15 {margin-top: 15px;}
+.mb-10 {margin-bottom: 10px}
+.mt-6em{margin-top: 6em;}
+.mt-0{margin-top: 0;}
+.mt-5px{margin-top: 5px;}
+
+/* Color (bg, text, bdr, ...) */
+.bg-bleuclair {background-color: rgb(240, 246, 247);}
+.bg-form {background-color: rgba(0, 0, 0, 0.411);}
+.bg-red{background-color: red;}
+.bg-cyan{background-color: aquamarine;}
+
+/* text color */
+.txt-blk{color: black;}
+.txt-deco-none{text-decoration:none;}
+
+/* nav */
+.nav{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+nav h3{
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 25px;
+    text-align: center;
+    
+}
+nav li {
+    grid-column-start: 1;
+}
+.bouton{
+    position:absolute;
+}
+.lien1{
+    grid-column-start: 1;
+    
+}
+
+/* images */
+.img-500{width: 500px;height: 500px;}
+.img-400{width: 400px;height: 400px;}
+.img-300{width: 300;height: 300px;}
+.img-250{width: 250px;height: 250px;}
+
+
+
+
+/* grid */ 
+
+.row1{grid-row:1}
+.row2{grid-row:2}
+.row3{grid-row:3}
+.row4{grid-row:4}
+.row5{grid-row:5}
+.row6{grid-row:6}
+
+.col1{grid-column:1;}
+.col2{grid-column:2;}
+.col3{grid-column:3;}
+.col4{grid-column:4;}
+.col5{grid-column:5;}
+.col6{grid-column:6;}
+
+
+/* header */
+header{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr; 
+}
+header img{
+    width: 100vw;
+}
+header button{
+    z-index: +1;
+}
+
+/* liste de card */
+
+.grid1{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    text-align: center;
+    row-gap: 20px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+       
+}
+.grid2 h5{
+    display: grid;
+    text-align: center;
+}
+.grid2 img{
+    justify-content: center;
+}
+
+
+/* formulauire */
+.grid3{
+    display:grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-rows: repeat(1fr 1fr 1fr 1fr);
+    background-color: rgba(5, 43, 43, 0.514);
+    margin: 10px;
+    padding: 10px;
+    
+}
+.grid3 input{
+    width: 20vw;
+}
+.grid4{
+    display:grid;
+    grid-template-columns: ;
+    grid-template-rows: ; 
+}
+textarea {
+    min-height: 250px;
+    min-width: 500px;
+}
