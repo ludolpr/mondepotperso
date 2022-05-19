@@ -111,7 +111,7 @@ nav h3{
 nav>ul>li:hover {
     color: rgba(18, 45, 199, 0.678);
     text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
-    overflow: hidden;
+    
 }
 
 li {
@@ -295,7 +295,7 @@ footer{
     height:50px;
 }
 /*  responsive */
- 
+
 @media (max-width: 700px) {
     header{
         margin-top:5em;
@@ -349,6 +349,12 @@ footer{
     nav a {
       color:white;
     }
+
+    nav a:hover{
+      color: rgba(18, 45, 199, 0.678);
+    text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
+    }
+
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
@@ -361,11 +367,13 @@ footer{
       font-size: 10px;
       margin: 5px;
       font-size: 15px;
+      width: 60%;
     }
     .list-card{
       display: flex;
       flex-direction: column;
       align-items: center;
+      
       
     }
   }
