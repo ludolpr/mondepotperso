@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(228, 228, 228);
-
 }
 /* Global */
 h1,
@@ -152,9 +151,7 @@ li {
     background-color: rgb(240, 246, 247);
 }
 
-.bg-form {
-    background-color: rgba(0, 0, 0, 0.411);
-}
+.bg-form { background-color: rgb(34, 156, 226)}
 
 .bg-red {
     background-color: red;
@@ -215,7 +212,10 @@ li {
 .grid-end5{grid-column-end: 5;}
 .grid-end6{grid-column-end: 6;}
 
-
+.grid0{
+    display: grid;
+    
+}
 
 /* nav */
 
@@ -242,9 +242,12 @@ nav a{
     text-align: center;
     margin-right: 15px;
 }
-nav a:hover{
+nav>ul>li:hover {
     color: rgba(18, 45, 199, 0.678);
-    text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
+     
+}
+nav >ul>li>a:hover{
+  color: rgba(18, 45, 199, 0.678);
 }
 
 /* header */
@@ -342,6 +345,7 @@ form{
 input{
     height: 15px;
 }
+
 /* hamburgeur */
 .top-nav {
     display: flex;

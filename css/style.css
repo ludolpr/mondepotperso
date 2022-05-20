@@ -34,11 +34,19 @@ h1,h2,h3,h4,h5 {
 
 
 /* texte size */
-.txt-size {}
+.txt-size {
+
+}
+
+/* border */
+.brd-blc-left{border-left: solid white 10px;}
+.brd-blc-right{border-right:solid white 3px;}
 
 /* text color */
 .txt-blk{color: black;}
 .txt-deco-none{text-decoration:none;}
+.txt-blc{color: white;}
+
 
 /* spacing (padding, margin, ... */
 .mx-5 {margin: 0 5px;}
@@ -53,9 +61,11 @@ h1,h2,h3,h4,h5 {
 
 /* Color (bg, text, bdr, ...) */
 .bg-bleuclair {background-color: rgb(240, 246, 247);}
-.bg-form {background-color: rgba(1, 69, 255, 0.411);}
+.bg-form { background-color: rgb(34, 156, 226)}
+
 .bg-red{background-color: red;}
 .bg-cyan{background-color: aquamarine;}
+.bg-grey{background-color: rgb(27, 27, 27);}
 
 /* .bg-primary { background-color: #color; } */
 
@@ -110,10 +120,11 @@ nav h3{
 }
 nav>ul>li:hover {
     color: rgba(18, 45, 199, 0.678);
-    text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 1em blue, 0 0 0.2em rgb(255, 255, 255);
-    
+     
 }
-
+nav >ul>li>a:hover{
+  color: rgba(18, 45, 199, 0.678);
+}
 li {
     list-style: none;
     margin:15px;
@@ -291,9 +302,16 @@ label {
 }
 /* footer */
 footer{
-    background-color:black;
-    height:50px;
+    background-color:rgb(0, 0, 0);
+    height:70px;  
+    color: white; 
+    padding:7px;
 }
+.fa-light {
+  color:white;
+}
+
+
 /*  responsive */
 
 @media (max-width: 700px) {
@@ -406,6 +424,9 @@ footer{
     textarea{
       min-height: 20vh;
       min-width: 60vw;
+    }
+    footer{
+      font-size: 10px;
     }
   }
    
